@@ -24,10 +24,10 @@ module.exports = {
       white: "#fff",
       "off-white": "#f7f8f8",
       "transparent-white": "rgba(255, 255, 255, 0.08)",
-      background: "#000212",
+      background: "#fff",
       grey: "#858699",
       "grey-dark": "#222326",
-      "primary-text": "#b4bcd0",
+      "primary-text": "#eee",
     },
     spacing: {
       0: "0",
@@ -51,7 +51,7 @@ module.exports = {
     },
     backgroundImage: {
       "primary-gradient":
-        "linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%)",
+        "linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%)",
       "page-gradient":
         "radial-gradient(ellipse 80% 50% at 50% -20%,rgba(120,119,198,0.3), transparent)",
       "hero-gradient":
